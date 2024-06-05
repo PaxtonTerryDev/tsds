@@ -1,0 +1,17 @@
+{
+  "name": "tsds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "npx tsc",
+    "rc": "rm -rf ./dist && npx tsc",
+    "test": "npm run rc && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
