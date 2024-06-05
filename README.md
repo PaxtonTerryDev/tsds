@@ -18,9 +18,15 @@ I've included the following classes -
 - Stack (Stack)
 - Queue (Queue)
 - Linked List (LinkedList)
+  - ListNode
 - Doubly Linked List (DblLinkedList)
+  - DblListNode
 - Binary Search Tree (BinarySearchTree)
+  - TreeNode
 - Avl Tree (AVLTree)
+  - AVLTreeNode
+
+The Linked List and Doubly Linked List have supporting classes that must be used in conjunction with their respective structure.
 
 The Binary Search Tree and AVL Tree have supporting classes they are dependent on called TreeNode and AVLTreeNode, respectively.  
 Each of these supporting classes have a value property - this value must be able to be compared, so keep that in mind.  You should be able to extend these classes to store more data if needed. 
