@@ -1,3 +1,5 @@
+# TSDS (Typescript Data Structures)
+
 This package contains a few data structures that don't have a native implementation in javascript.  All structures are compatible with Typescript and are designed to accept generics. 
 
 ## Getting Started
