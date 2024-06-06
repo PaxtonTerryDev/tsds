@@ -1,12 +1,14 @@
 {
   "name": "ptdev-tsds",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fairly lightweight implementation of common data structures (Stacks, Queues, Lists, and Trees) in typescript that don't have native js implementations. ",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "compile": "npx tsc",
     "rc": "rm -rf ./dist && npx tsc",
-    "test": "npm run rc && node ./dist/index.js"
+    "test": "npm run rc && node ./dist/index.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "PaxtonTerryDev",
